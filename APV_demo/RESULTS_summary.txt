@@ -1,0 +1,23 @@
+Adversarial Prompt Vaccination — Concept Demo Results (simulated / reproduced from paper)
+
+Baseline:
+ - Response Toxicity: 0.076
+ - Factual Consistency: 0.821
+ - Alignment Stability: 0.732
+
+APV (Final):
+ - Response Toxicity: 0.023
+ - Factual Consistency: 0.918
+ - Alignment Stability: 0.886
+
+Relative gains (paper reproduction):
+ - Response Toxicity reduction: 69.7%
+ - Factual Consistency increase: 11.8%
+ - Alignment Stability increase: 21.0%
+
+Per-cycle immunization gains:
+
+ Cycle 1: avg_gain=12.5%, false_alarm_rate=2.7%
+ Cycle 2: avg_gain=15.1%, false_alarm_rate=2.2%
+ Cycle 3: avg_gain=18.4%, false_alarm_rate=2.0%
+ Cycle 4: avg_gain=19.0%, false_alarm_rate=2.0%
