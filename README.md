@@ -21,7 +21,7 @@ This repository contains a **concept demonstration** of APV — a *lightweight, 
 ### 🧩 Framework Architecture
 
 <p align="center">
-  <img src="figures/synthetic_immunization_loop.png" width="500" alt="Synthetic Immunization Loop Diagram">
+  <img src="APV_demo/figures/synthetic_immunization_loop.png" width="500" alt="Synthetic Immunization Loop Diagram">
 </p>
 
 **Synthetic Immunization Loop (SIL):**
@@ -74,12 +74,12 @@ The demo will:
 
 #### 1. Baseline vs APV
 <p align="center">
-  <img src="figures/baseline_vs_apv.png" width="600" alt="Baseline vs APV chart">
+  <img src="APV_demo/figures/baseline_vs_apv.png" width="600" alt="Baseline vs APV chart">
 </p>
 
 #### 2. Immunization Gains per Cycle
 <p align="center">
-  <img src="figures/cycle_gains.png" width="500" alt="Cycle gains chart">
+  <img src="APV_demo/figures/cycle_gains.png" width="500" alt="Cycle gains chart">
 </p>
 
 ---
@@ -103,14 +103,14 @@ The demo will:
 ### 🧱 Project Structure
 ```
 Adversarial-Prompt-Vaccination/
-│
+├── README.md                  # Project documentation
+APV_demo/
 ├── apv_simulation.py          # Core simulation framework
 ├── run_demo.py                # Main runner script (generates charts + results)
 ├── results.json               # Simulation results (metrics & tables)
 ├── RESULTS_summary.txt        # Human-readable summary
 ├── requirements.txt           # Dependencies
 ├── LICENSE                    # MIT License
-├── README.md                  # Project documentation
 ├── APV_demo_notebook.ipynb    # Optional notebook interface
 └── figures/
     ├── synthetic_immunization_loop.png
