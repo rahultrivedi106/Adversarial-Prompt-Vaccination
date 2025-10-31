@@ -118,6 +118,16 @@ APV_demo/
     └── cycle_gains.png
 ```
 
+## 🧱 Dependencies
+
+tensorflow==2.12
+numpy==1.25.0
+pandas
+scikit learn
+transformers==4.30
+tqdm
+matplotlib
+
 ---
 
 ### 📘 Citation
