@@ -120,13 +120,19 @@ APV_demo/
 
 ## 🧱 Dependencies
 
-tensorflow==2.12
-numpy==1.25.0
+tensorflow>=2.12
+
+transformers>=4.30
+
+numpy
+
 pandas
-scikit learn
-transformers==4.30
-tqdm
+
 matplotlib
+
+scikit-learn
+
+tqdm
 
 ---
 
